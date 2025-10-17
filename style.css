@@ -1,8 +1,16 @@
+html {
+  height: 100vh;
+}
+
 body {
-  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/25f808aa-cecb-4753-8541-9a79f40c18ae/web/AZ-en-20251006-TRIFECTA-perspective_8eb5d1a0-fa80-4b3e-8c59-109995818ad9_medium.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://assets.nflxext.com/ffe/siteui/vlv3/25f808aa-cecb-4753-8541-9a79f40c18ae/web/AZ-en-20251006-TRIFECTA-perspective_8eb5d1a0-fa80-4b3e-8c59-109995818ad9_medium.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   font-size: 24px;
   font-family: NetflixLight;
+  height: 100vh;
 }
 
 @font-face {
@@ -25,6 +33,15 @@ ul {
     gap: 10px;
 }
 
-#cars {
+#languages {
     width: 100px;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
